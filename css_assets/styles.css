@@ -1,0 +1,153 @@
+/* Reset default margin and set base font and background */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: #fff;
+}
+
+/* Header styling */
+.site-header {
+    background: #f7c873;
+    padding: 1rem;
+}
+
+/* Logo and titles font and color */
+.logo, .welcome-title, .section-title {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    color: #4b2e05;
+}
+
+/* Logo size */
+.logo {
+    font-size: 2.5rem;
+}
+
+/* Navigation bar styling */
+.top-nav, .bottom-nav {
+    background: #ffe5b4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 0.75rem 0;
+    border-bottom: 2px solid #f7c873;
+    flex-wrap: wrap;
+}
+
+/* Bottom navigation border adjustment */
+.bottom-nav {
+    border-top: 2px solid #f7c873;
+    border-bottom: none;
+}
+
+/* Navigation link styling */
+.nav-link {
+    color: #4b2e05;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    transition: background 0.2s;
+}
+
+/* Navigation link hover effect */
+.nav-link:hover {
+    background: #f7c873;
+}
+
+/* Main content container */
+.main-content {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 1rem;
+}
+
+/* Welcome section styling */
+.welcome-section {
+    background: #fffbe6;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px #ffe5b4;
+    padding: 2rem;
+}
+
+/* Welcome text and product description */
+.welcome-text, .product-desc {
+    font-size: 1.2rem;
+    color: #6b4f1d;
+}
+
+/* Welcome section image styling */
+.welcome-section img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 100%;
+    margin-top: 1rem;
+    box-shadow: 0 2px 8px #f7c873;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Top products section margin */
+.top-products {
+    margin-top: 2rem;
+}
+
+/* Products section layout */
+.products-section {
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Individual product card styling */
+.product-card {
+    background: #ffe5b4;
+    border-radius: 10px;
+    padding: 1rem;
+    width: 240px;
+    box-shadow: 0 2px 6px #f7c873;
+    margin-bottom: 1rem;
+    flex: 1 1 220px;
+    min-width: 220px;
+    max-width: 300px;
+}
+
+/* Product title color */
+.product-title {
+    color: #4b2e05;
+}
+
+/* Star rating color and size */
+.stars {
+    color: #e6b800;
+    font-size: 1.2rem;
+}
+
+/* Responsive styles for small screens */
+@media (max-width: 600px) {
+    .main-content {
+        margin: 1rem;
+        padding: 0.5rem;
+    }
+    .welcome-section {
+        padding: 1rem;
+    }
+    .products-section {
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .product-card {
+        width: 100%;
+        max-width: 100%;
+        min-width: 0;
+    }
+    .top-nav, .bottom-nav {
+        gap: 0.5rem;
+        padding: 0.5rem 0;
+        flex-direction: column;
+        align-items: center;
+    }
+}

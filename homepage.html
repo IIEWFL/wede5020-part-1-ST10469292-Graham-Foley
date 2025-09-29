@@ -4,179 +4,59 @@
     <meta charset="UTF-8">
     <title>Batterly - Baking Kits for Airfryers</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        :root {
-            --earth-bg: #f5f3e7;
-            --earth-accent: #a67c52;
-            --earth-dark: #4e342e;
-            --earth-light: #d7c4a3;
-            --font-main: 'Segoe UI', Arial, sans-serif;
-        }
-        body {
-            margin: 0;
-            background: var(--earth-bg);
-            font-family: var(--font-main);
-            color: var(--earth-dark);
-            font-size: 1.15rem;
-        }
-        header {
-            text-align: center;
-            padding: 2rem 0 1rem 0;
-            background: var(--earth-light);
-        }
-        .logo {
-            font-size: 2.5rem;
-            font-weight: bold;
-            color: var(--earth-accent);
-            letter-spacing: 2px;
-        }
-        nav.top-nav {
-            display: flex;
-            justify-content: center;
-            background: var(--earth-accent);
-            padding: 0.75rem 0;
-        }
-        nav.top-nav a {
-            color: #fff;
-            text-decoration: none;
-            margin: 0 1.5rem;
-            font-size: 1.1rem;
-            font-weight: 500;
-            transition: color 0.2s;
-        }
-        nav.top-nav a:hover {
-            color: var(--earth-bg);
-        }
-        main {
-            max-width: 900px;
-            margin: 2rem auto;
-            background: #fff;
-            border-radius: 12px;
-            box-shadow: 0 2px 12px rgba(78,52,46,0.07);
-            padding: 2rem;
-        }
-        .welcome {
-            text-align: center;
-            margin-bottom: 2rem;
-        }
-        .welcome h1 {
-            font-size: 2rem;
-            color: var(--earth-accent);
-            margin-bottom: 0.5rem;
-        }
-        .welcome p {
-            font-size: 1.15rem;
-            color: var(--earth-dark);
-        }
-        .products-section {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 2rem;
-            justify-content: center;
-            margin-bottom: 2rem;
-        }
-        .product-card {
-            background: var(--earth-light);
-            border-radius: 8px;
-            box-shadow: 0 1px 6px rgba(78,52,46,0.08);
-            padding: 1.25rem;
-            width: 240px;
-            text-align: center;
-        }
-        .product-card h3 {
-            margin: 0.5rem 0;
-            color: var(--earth-dark);
-            font-size: 1.15rem;
-        }
-        .product-card .stars {
-            color: #e2b007;
-            font-size: 1.1rem;
-            margin-bottom: 0.5rem;
-        }
-        .product-card p {
-            font-size: 1rem;
-            color: var(--earth-dark);
-        }
-        nav.bottom-nav {
-            display: flex;
-            justify-content: center;
-            background: var(--earth-accent);
-            padding: 0.75rem 0;
-            position: fixed;
-            width: 100%;
-            left: 0;
-            bottom: 0;
-        }
-        nav.bottom-nav a {
-            color: #fff;
-            text-decoration: none;
-            margin: 0 1.5rem;
-            font-size: 1.05rem;
-            font-weight: 500;
-            transition: color 0.2s;
-        }
-        nav.bottom-nav a:hover {
-            color: var(--earth-bg);
-        }
-        @media (max-width: 700px) {
-            main {
-                padding: 1rem;
-            }
-            .products-section {
-                flex-direction: column;
-                align-items: center;
-            }
-            .product-card {
-                width: 90%;
-            }
-        }
-        /* Add space for bottom nav */
-        body {
-            padding-bottom: 60px;
-        }
-    </style>
+    <!-- Link to external CSS stylesheet -->
+    <link rel="stylesheet" href="css_assets/styles.css">
 </head>
 <body>
-    <header>
+    <!-- Site header with logo -->
+    <header class="site-header">
         <div class="logo">Batterly</div>
     </header>
+    <!-- Top navigation bar -->
     <nav class="top-nav">
-        <a href="homepage.html">Home</a>
-        <a href="products.html">Products</a>
-        <a href="recipes.html">Recipes</a>
-        <a href="reviews.html">Reviews</a>
-        <a href="cart.html">Cart</a>
-        <a href="payment.html">Payment</a>
+        <a href="homepage.html" class="nav-link">Home</a>
+        <a href="products.html" class="nav-link">Products</a>
+        <a href="recipes.html" class="nav-link">Recipes</a>
+        <a href="reviews.html" class="nav-link">Reviews</a>
+        <a href="cart.html" class="nav-link">Cart</a>
+        <a href="payment.html" class="nav-link">Payment</a>
     </nav>
-    <main>
-        <section class="welcome">
-            <h1>Welcome to Batterly!</h1>
-            <p>Your student-friendly source for delicious baking kits designed for airfryers. Enjoy easy, affordable, and fun baking with earth-inspired comfort.</p>
+    <main class="main-content">
+        <!-- Welcome section with title, description, and logo image -->
+        <section class="welcome-section">
+            <h1 class="welcome-title">Welcome to Batterly!</h1>
+            <p class="welcome-text">Your student-friendly source for delicious baking kits designed for airfryers.</p>
+            <img src="_images/Batterly_Logo.webp">
         </section>
-        <section>
-            <h2 style="color: var(--earth-accent); text-align:center; margin-bottom:1rem;">Top Selling & Highest Rated Kits</h2>
+        <!-- Top products section -->
+        <section class="top-products">
+            <h2 class="section-title">Top Selling & Highest Rated Kits</h2>
             <div class="products-section">
+                <!-- Product card: Chocolate Chip Cookie Kit -->
                 <div class="product-card">
-                    <h3>Classic Chocolate Chip Cookie Kit</h3>
+                    <h3 class="product-title">🍪 Classic Chocolate Chip Cookie Kit</h3>
                     <div class="stars">★★★★★</div>
-                    <p>Our #1 bestseller! Bake gooey, golden cookies in your airfryer in minutes.</p>
+                    <p class="product-desc">Our #1 bestseller! Bake gooey, golden cookies in your airfryer in minutes.</p>
                 </div>
+                <!-- Product card: Banana Bread Kit -->
                 <div class="product-card">
-                    <h3>Banana Bread Airfryer Kit</h3>
+                    <h3 class="product-title">🍌 Banana Bread Airfryer Kit</h3>
                     <div class="stars">★★★★☆</div>
-                    <p>Easy, moist banana bread with minimal prep. Perfect for study snacks!</p>
+                    <p class="product-desc">Easy, moist banana bread with minimal prep. Perfect for study snacks!</p>
                 </div>
+                <!-- Product card: Vegan Brownie Kit -->
                 <div class="product-card">
-                    <h3>Vegan Brownie Kit</h3>
+                    <h3 class="product-title">🌱 Vegan Brownie Kit</h3>
                     <div class="stars">★★★★★</div>
-                    <p>Rich, fudgy brownies—no eggs or dairy needed. Student favourite!</p>
+                    <p class="product-desc">Rich, fudgy brownies-no eggs or dairy needed. Student favourite!</p>
                 </div>
             </div>
         </section>
     </main>
+    <!-- Bottom navigation bar -->
     <nav class="bottom-nav">
-        <a href="about_us.html">About Us</a>
-        <a href="contact_us.html">Contact Us</a>
+        <a href="about_us.html" class="nav-link">About Us</a>
+        <a href="contact_us.html" class="nav-link">Contact Us</a>
     </nav>
 </body>
 </html>

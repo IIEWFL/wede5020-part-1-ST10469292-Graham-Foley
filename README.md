@@ -64,7 +64,7 @@ This project will provide Batterly with a professional and student-focused digit
 
 Changelog:
 Started project, organised folders and subfolders
-Updated README.md to include the Project Title, Student Information, Project Overview (Including Website Goals and Objectives, Key Feature and Functionality, Timeline and Milestones, and Part 1 Detaials), Changelog, and References
+Updated README.md to include the Project Title, Student Information, Project Overview (Including Website Goals and Objectives, Key Feature and Functionality, Timeline and Milestones, and Part 1 Details), Changelog, and References
 Created the homepage that serves as the gateway to the website, offering a warm welcome and highlighting the top-selling products and highest-rated items
 
 References
