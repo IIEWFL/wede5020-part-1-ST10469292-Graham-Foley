@@ -293,6 +293,7 @@ body {
 #cart-list .quantity-adjust {
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 0.5rem;
     margin-bottom: 1rem;
 }
@@ -370,6 +371,91 @@ body {
 
 /* Continue to payment button hover effect */
 .btn-continue-payment:hover {
+    background: #e6b800;
+}
+
+/* Delivery location section styling */
+.delivery-location {
+    background: #fffbe6;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px #ffe5b4;
+    padding: 2rem;
+    margin: 2rem auto;
+    max-width: 500px;
+    text-align: left;
+}
+
+.delivery-location form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.delivery-location label {
+    font-weight: bold;
+    color: #4b2e05;
+    margin-bottom: 0.3rem;
+}
+
+.delivery-location input[type="text"] {
+    padding: 0.5rem;
+    border-radius: 6px;
+    border: 1px solid #f7c873;
+    font-size: 1rem;
+    background: #fff;
+    color: #6b4f1d;
+    margin-bottom: 0.5rem;
+    resize: vertical;
+}
+
+/* Payment form section styling */
+.payment-form {
+    background: #fffbe6;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px #ffe5b4;
+    padding: 2rem;
+    margin: 2rem auto;
+    max-width: 500px;
+    text-align: left;
+}
+
+.payment-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.payment-form label {
+    font-weight: bold;
+    color: #4b2e05;
+    margin-bottom: 0.3rem;
+}
+
+.payment-form input[type="text"],
+.payment-form input[type="month"] {
+    padding: 0.5rem;
+    border-radius: 6px;
+    border: 1px solid #f7c873;
+    font-size: 1rem;
+    background: #fff;
+    color: #6b4f1d;
+    margin-bottom: 0.5rem;
+    resize: vertical;
+}
+
+.submit-payment-btn {
+    background: #f7c873;
+    color: #4b2e05;
+    border: none;
+    border-radius: 6px;
+    padding: 0.7rem 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.2s;
+    align-self: flex-end;
+}
+
+.submit-payment-btn:hover {
     background: #e6b800;
 }
 
@@ -467,5 +553,46 @@ body {
         padding: 0.5rem 0;
         flex-direction: column;
         align-items: center;
+    }
+
+    .delivery-location {
+        padding: 1rem;
+        margin: 1rem auto;
+        max-width: 100%;
+    }
+
+    .delivery-location form {
+        gap: 0.7rem;
+    }
+
+    .delivery-location input[type="text"] {
+        font-size: 1rem;
+        padding: 0.4rem;
+        margin-bottom: 0.3rem;
+        box-sizing: border-box;
+    }
+    .payment-form {
+        padding: 1rem;
+        margin: 1rem auto;
+        max-width: 100%;
+    }
+
+    .payment-form form {
+        gap: 0.7rem;
+    }
+
+    .payment-form input[type="text"],
+    .payment-form input[type="month"] {
+        font-size: 1rem;
+        padding: 0.4rem;
+        margin-bottom: 0.3rem;
+        box-sizing: border-box;
+    }
+
+    .submit-payment-btn {
+        width: 100%;
+        padding: 0.7rem 0;
+        font-size: 1rem;
+        align-self: stretch;
     }
 }

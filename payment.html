@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Batterly - Baking Kits for Airfryers</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link to external CSS stylesheet -->
+    <link rel="stylesheet" href="css_assets/styles.css">
+</head>
+<body>
+    <!-- Site header with logo -->
+    <header class="site-header">
+        <div class="logo">Batterly</div>
+    </header>
+    <!-- Top navigation bar -->
+    <nav class="top-nav">
+        <a href="homepage.html" class="nav-link">Home</a>
+        <a href="products.html" class="nav-link">Products</a>
+        <a href="recipes.html" class="nav-link">Recipes</a>
+        <a href="reviews.html" class="nav-link">Reviews</a>
+        <a href="cart.html" class="nav-link">Cart</a>
+        <a href="payment.html" class="nav-link">Payment</a>
+    </nav>
+    <main>
+        <!-- Section title for the payment page -->
+        <section class ="section-title">
+            <h1>Payment</h1>
+        </section>
+        <!-- Delivery location form section -->
+        <section class="delivery-location">
+            <form action="#" method="post">
+            <!-- Delivery address input -->
+            <label for="delivery-address">Delivery Address:</label>
+            <input type="text" id="delivery-address" name="delivery-address" required placeholder="Street address">
+
+            <!-- City input -->
+            <label for="delivery-city">City:</label>
+            <input type="text" id="delivery-city" name="delivery-city" required placeholder="City">
+
+            <!-- State/Province input -->
+            <label for="delivery-state">State/Province:</label>
+            <input type="text" id="delivery-state" name="delivery-state" required placeholder="State/Province">
+
+            <!-- Postal code input -->
+            <label for="delivery-zip">Postal Code:</label>
+            <input type="text" id="delivery-zip" name="delivery-zip" required placeholder="Postal Code">
+
+            <!-- Country input -->
+            <label for="delivery-country">Country:</label>
+            <input type="text" id="delivery-country" name="delivery-country" required placeholder="Country">
+            </form>
+        </section>
+        <!-- Payment form section -->
+        <section class="payment-form">
+            <form action="#" method="post">
+            <!-- Name on card input -->
+            <label for="card-name">Name on Card:</label>
+            <input type="text" id="card-name" name="card-name" required>
+
+            <!-- Card number input (16 digits) -->
+            <label for="card-number">Card Number:</label>
+            <input type="text" id="card-number" name="card-number" required pattern="\d{16}" title="Please enter a valid 16-digit card number">
+
+            <!-- Expiry date input -->
+            <label for="expiry-date">Expiry Date:</label>
+            <input type="month" id="expiry-date" name="expiry-date" required>
+
+            <!-- CVV input (3 digits) -->
+            <label for="cvv">CVV:</label>
+            <input type="text" id="cvv" name="cvv" required pattern="\d{3}" title="Please enter a valid 3-digit CVV">
+
+            <!-- Submit payment button -->
+            <button type="submit" class="submit-payment-btn">Submit Payment</button>
+            </form>
+        </section>
+        <!-- Bottom navigation bar -->
+        <nav class="bottom-nav">
+            <a href="about_us.html" class="nav-link">About Us</a>
+            <a href="contact_us.html" class="nav-link">Contact Us</a>
+        </nav>
+    </main>
+</body>
+</html>
