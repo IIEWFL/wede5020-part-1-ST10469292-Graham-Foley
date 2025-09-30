@@ -71,8 +71,9 @@ Created the products page that displays all available items, allowing customers 
 Created the reviews page that allows customers to submit feedback on products and view reviews submitted by other consumers, added css styles for the reviews page, updated products page section text
 Created the cart page that displays all selected products, allowing users to adjust quantities, remove items, and proceed seamlessly to the payment page
 Created the payment page that facilitates secure transactions, allowing customers to complete purchases and choose their preferred delivery options, centred quantity adjustment on cart page
-Created the about us page that provides an overview of our history, mission, and the purpose behind our business.
-Created the contact us page that lists our contact information, enabling customers to reach out with inquiries or resolve any issues with our products.
+Created the about us page that provides an overview of our history, mission, and the purpose behind our business
+Created the contact us page that lists our contact information, enabling customers to reach out with inquiries or resolve any issues with our products
+Created the recipes page that provides clear, step-by-step instructions on how to use our baking kits to prepare the products we offer, added instruction images
 
 References
 Batterly.za (2025) Batterly.za Instagram profile. [Instagram]. Available at: https://www.instagram.com/batterly.za [Accessed 28 August 2025]. 
