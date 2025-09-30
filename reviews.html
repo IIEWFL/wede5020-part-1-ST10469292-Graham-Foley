@@ -22,56 +22,60 @@
         <a href="payment.html" class="nav-link">Payment</a>
     </nav>
     <main>
-        <section class ="section-title">
+        <!-- Section: Page Title -->
+        <section class="section-title">
             <h1>Customer Reviews</h1>
         </section>
+        <!-- Section: List of Customer Reviews -->
         <section class="reviews-list">
             <!-- Review: Classic Chocolate Chip Cookie Kit -->
             <div class="review-card">
-            <h3 class="review-title">🍪 Classic Chocolate Chip Cookie Kit</h3>
-            <div class="stars">★★★★★</div>
-            <p class="review-text">The cookies come out perfectly gooey every time. So easy and quick in my airfryer!</p>
-            <p class="reviewer-name"><strong>- Sarah M.</strong></p>
+                <h3 class="review-title">🍪 Classic Chocolate Chip Cookie Kit</h3>
+                <div class="stars">★★★★★</div>
+                <p class="review-text">The cookies come out perfectly gooey every time. So easy and quick in my airfryer!</p>
+                <p class="reviewer-name"><strong>- Sarah M.</strong></p>
             </div>
             <!-- Review: Banana Bread Airfryer Kit -->
             <div class="review-card">
-            <h3 class="review-title">🍌 Banana Bread Airfryer Kit</h3>
-            <div class="stars">★★★★☆</div>
-            <p class="review-text">Super moist and tasty. Great for a fast snack between classes.</p>
-            <p class="reviewer-name"><strong>- Alex T.</strong></p>
+                <h3 class="review-title">🍌 Banana Bread Airfryer Kit</h3>
+                <div class="stars">★★★★☆</div>
+                <p class="review-text">Super moist and tasty. Great for a fast snack between classes.</p>
+                <p class="reviewer-name"><strong>- Alex T.</strong></p>
             </div>
             <!-- Review: Vegan Brownie Kit -->
             <div class="review-card">
-            <h3 class="review-title">🌱 Vegan Brownie Kit</h3>
-            <div class="stars">★★★★★</div>
-            <p class="review-text">Rich and fudgy brownies without any dairy. My new favourite dessert!</p>
-            <p class="reviewer-name"><strong>- Priya S.</strong></p>
+                <h3 class="review-title">🌱 Vegan Brownie Kit</h3>
+                <div class="stars">★★★★★</div>
+                <p class="review-text">Rich and fudgy brownies without any dairy. My new favourite dessert!</p>
+                <p class="reviewer-name"><strong>- Priya S.</strong></p>
             </div>
             <!-- Review: Cinnamon Roll Airfryer Kit -->
             <div class="review-card">
-            <h3 class="review-title">🍥 Cinnamon Roll Airfryer Kit</h3>
-            <div class="stars">★★★★☆</div>
-            <p class="review-text">Warm and gooey cinnamon rolls in minutes. Perfect for breakfast!</p>
-            <p class="reviewer-name"><strong>- Jamie L.</strong></p>
+                <h3 class="review-title">🍥 Cinnamon Roll Airfryer Kit</h3>
+                <div class="stars">★★★★☆</div>
+                <p class="review-text">Warm and gooey cinnamon rolls in minutes. Perfect for breakfast!</p>
+                <p class="reviewer-name"><strong>- Jamie L.</strong></p>
             </div>
             <!-- Review: Lemon Drizzle Cake Kit -->
             <div class="review-card">
-            <h3 class="review-title">🍋 Lemon Drizzle Cake Kit</h3>
-            <div class="stars">★★★★★</div>
-            <p class="review-text">Tangy and sweet, the lemon cake is a hit at every party.</p>
-            <p class="reviewer-name"><strong>- Thandi N.</strong></p>
+                <h3 class="review-title">🍋 Lemon Drizzle Cake Kit</h3>
+                <div class="stars">★★★★★</div>
+                <p class="review-text">Tangy and sweet, the lemon cake is a hit at every party.</p>
+                <p class="reviewer-name"><strong>- Thandi N.</strong></p>
             </div>
             <!-- Review: Red Velvet Cupcake Kit -->
             <div class="review-card">
-            <h3 class="review-title">🧁 Red Velvet Cupcake Kit</h3>
-            <div class="stars">★★★★☆</div>
-            <p class="review-text">Classic cupcakes with creamy frosting. So easy to bake in the airfryer!</p>
-            <p class="reviewer-name"><strong>- Michael R.</strong></p>
+                <h3 class="review-title">🧁 Red Velvet Cupcake Kit</h3>
+                <div class="stars">★★★★☆</div>
+                <p class="review-text">Classic cupcakes with creamy frosting. So easy to bake in the airfryer!</p>
+                <p class="reviewer-name"><strong>- Michael R.</strong></p>
             </div>
         </section>
+        <!-- Section: Leave a New Review Form -->
         <section class="leave-review">
             <h2>Leave a Review</h2>
             <form action="#" method="post" class="review-form">
+                <!-- Product Selection Dropdown -->
                 <label for="product">Product:</label>
                 <select id="product" name="product" required>
                     <option value="">Select a product</option>
@@ -82,6 +86,7 @@
                     <option value="Lemon Drizzle Cake Kit">Lemon Drizzle Cake Kit</option>
                     <option value="Red Velvet Cupcake Kit">Red Velvet Cupcake Kit</option>
                 </select>
+                <!-- Rating Selection Dropdown -->
                 <label for="stars">Rating:</label>
                 <select id="stars" name="stars" required>
                     <option value="">Select rating</option>
@@ -91,10 +96,13 @@
                     <option value="2">★★☆☆☆</option>
                     <option value="1">★☆☆☆☆</option>
                 </select>
+                <!-- Review Textarea -->
                 <label for="review-text">Your Review:</label>
                 <textarea id="review-text" name="review-text" rows="4" required></textarea>
+                <!-- Reviewer Name Input -->
                 <label for="reviewer-name">Your Name:</label>
                 <input type="text" id="reviewer-name" name="reviewer-name" required>
+                <!-- Submit Button -->
                 <button type="submit">Submit Review</button>
             </form>
         </section>
