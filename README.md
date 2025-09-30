@@ -76,4 +76,5 @@ Created the contact us page that lists our contact information, enabling custome
 Created the recipes page that provides clear, step-by-step instructions on how to use our baking kits to prepare the products we offer, added instruction images
 
 References
-Batterly.za (2025) Batterly.za Instagram profile. [Instagram]. Available at: https://www.instagram.com/batterly.za [Accessed 28 August 2025]. 
+Batterly.za (2025) Batterly.za Instagram profile. [Instagram]. Available at: https://www.instagram.com/batterly.za [Accessed 28 August 2025].
+camera._.on (2025) Instagram profile. [Images]. Available at: https://www.instagram.com/camera._.on [Accessed 28 August 2025].
