@@ -69,6 +69,7 @@ Created the homepage that serves as the gateway to the website, offering a warm 
 Created the css styles for the homepage and allowing the page to adjust to any screen size, updated the homepage style and included the logo
 Created the products page that displays all available items, allowing customers to browse and add their selections to the shopping cart, added css style for products list page, made products on homepage clickables that redirect to the products page
 Created the reviews page that allows customers to submit feedback on products and view reviews submitted by other consumers, added css styles for the reviews page, updated products page section text
+Created the cart page that displays all selected products, allowing users to adjust quantities, remove items, and proceed seamlessly to the payment page
 
 References
 Batterly.za (2025) Batterly.za Instagram profile. [Instagram]. Available at: https://www.instagram.com/batterly.za [Accessed 28 August 2025]. 
