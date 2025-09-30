@@ -68,6 +68,7 @@ Updated README.md to include the Project Title, Student Information, Project Ove
 Created the homepage that serves as the gateway to the website, offering a warm welcome and highlighting the top-selling products and highest-rated items
 Created the css styles for the homepage and allowing the page to adjust to any screen size, updated the homepage style and included the logo
 Created the products page that displays all available items, allowing customers to browse and add their selections to the shopping cart, added css style for products list page, made products on homepage clickables that redirect to the products page
+Created the reviews page that allows customers to submit feedback on products and view reviews submitted by other consumers, added css styles for the reviews page, updated products page section text
 
 References
 Batterly.za (2025) Batterly.za Instagram profile. [Instagram]. Available at: https://www.instagram.com/batterly.za [Accessed 28 August 2025]. 
