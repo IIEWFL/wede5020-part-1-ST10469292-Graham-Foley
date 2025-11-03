@@ -74,6 +74,7 @@ Created the payment page that facilitates secure transactions, allowing customer
 Created the about us page that provides an overview of our history, mission, and the purpose behind our business
 Created the contact us page that lists our contact information, enabling customers to reach out with inquiries or resolve any issues with our products
 Created the recipes page that provides clear, step-by-step instructions on how to use our baking kits to prepare the products we offer, added instruction images
+Updated Payment Page for "City" input to "City/Town"
 
 References
 Batterly.za (2025) Batterly.za Instagram profile. [Instagram]. Available at: https://www.instagram.com/batterly.za [Accessed 28 August 2025].
