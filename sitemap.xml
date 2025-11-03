@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+   <url>
+      <loc>https://www.batterly.com/homepage.html</loc>
+      <lastmod>2025-11-03</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>1.0</priority>
+   </url>
+   <url>
+      <loc>https://www.batterly.com/products.html</loc>
+      <lastmod>2025-11-03</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.9</priority>
+   </url>
+   <url>
+      <loc>https://www.batterly.com/recipes.html</loc>
+      <lastmod>2025-11-03</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <loc>https://www.batterly.com/reviews.html</loc>
+      <lastmod>2025-11-03</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.7</priority>
+   </url>
+   <url>
+      <loc>https://www.batterly.com/cart.html</loc>
+      <lastmod>2025-11-03</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.5</priority>
+   </url>
+   <url>
+      <loc>https://www.batterly.com/payment.html</loc>
+      <lastmod>2025-11-03</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.5</priority>
+   </url>
+   <url>
+      <loc>https://www.batterly.com/about_us.html</loc>
+      <lastmod>2025-11-03</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+   </url>
+   <url>
+      <loc>https://www.batterly.com/contact_us.html</loc>
+      <lastmod>2025-11-03</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+   </url>
+</urlset>
+
+The sitemap.xml file lists all pages in the Batterly project and provides information like last modified date and priority. This allows search engines to understand the structure of the website and index pages efficiently.

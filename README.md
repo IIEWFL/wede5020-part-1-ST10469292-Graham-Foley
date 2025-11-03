@@ -77,6 +77,8 @@ Created the recipes page that provides clear, step-by-step instructions on how t
 Updated Payment Page for "City" input to "City/Town"
 Added JavaScript code
 Updated all pages with dynamic cart functionality, fully populated product listings, localStorage persistence, quantity adjustments, and add/remove item JavaScript interactivity
+Updated all pages with unique, optimized titles and meta descriptions to improve on-page SEO and enhance search engine visibility.
+Added robots.txt and sitemap.xml
 
 References
 Batterly.za (2025) Batterly.za Instagram profile. [Instagram]. Available at: https://www.instagram.com/batterly.za [Accessed 28 August 2025].
